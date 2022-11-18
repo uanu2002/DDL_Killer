@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dlk.DKController">
+   <children>
+      <TextArea fx:id="text_in_add" layoutX="76.0" layoutY="39.0" prefHeight="89.0" prefWidth="236.0" promptText="输入要添加的DDL" />
+      <Button layoutX="154.0" layoutY="154.0" mnemonicParsing="false" onAction="#upload_add" text="添加" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="text_out" layoutX="390.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DDL" wrappingWidth="436.15625">
+         <font>
+            <Font size="45.0" />
+         </font></Text>
+      <TextArea fx:id="text_in_del" layoutX="76.0" layoutY="255.0" prefHeight="89.0" prefWidth="236.0" promptText="输入要删除的序号" />
+      <Button layoutX="154.0" layoutY="366.0" mnemonicParsing="false" onAction="#upload_del" text="删除" />
+      <Text fill="#4b899a" layoutX="14.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="作者：Uanu">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
